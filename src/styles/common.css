@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    --poz:10px;
+    color: white;
+}
+.hero{
+    background-image: url('../images/image.png');
+    background-size: cover;
+    color: white;
+    padding: 5rem;
+    position: relative;
+    height: 200px;
+    }
+
+.hero h2, .hero p{
+    font-size: small;
+}
+
+#idezet{
+    position: absolute;
+    left: var(--poz);
+    bottom: 10px; 
+}
+nav {
+    background: #052542;
+    margin-bottom: 20px ;
+    padding-left: 10px;
+}
+nav a{
+    padding: 5px 5px 5px 5px;
+    border-right: 2px solid white;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-color: #052542;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: min(2.2vw,25px)  ;
+
+}
+#neptunkod{
+    position: absolute;
+    right: var(--poz);
+    top: 22.5%;
+    font-size: 20px  ;
+
+}
+main{
+    background-color:#395093 ;
+}
+
+
+h1{
+    margin: 0 !important;
+}
+.active{
+    color: rgb(0, 238, 255);
+}

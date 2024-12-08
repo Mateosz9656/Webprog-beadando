@@ -1,0 +1,63 @@
+
+
+#todoInput {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#addButton {
+    padding: 10px;
+}
+
+#todoCount {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f28ac;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+
+}
+
+li.done {
+    background-color: #1ba711; 
+}
+
+button {
+    background: none;
+    font-size: 18px;
+    margin: 0 5px;
+    border: none;
+ 
+}
+
+button.delete {
+    color: red;
+    align-self: flex-end;
+
+    flex-grow: 1;
+}
+
+button.done {
+    color: green;
+
+    flex-grow: 1;
+}
+span{
+
+    flex-grow: 15;
+}

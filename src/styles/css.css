@@ -1,0 +1,46 @@
+.belso input{
+    color: black !important;
+}
+
+
+html,body{
+    height: 100%;
+}
+.kulso tr td:first-child{
+    background-color: rgb(70, 70, 73);
+    height: 100%;
+    vertical-align: top;
+    padding: 10px;
+}
+.kulso, .kulso tr{
+    height: 72.5%;
+}
+.kulso{
+    width: 100%;
+    border-collapse: collapse;
+    min-height: 100%;
+}
+
+
+main{
+    flex: 1;
+    overflow: auto;
+}
+#negyzet{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    margin: auto;
+}
+.con {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+@media(max-width:500px) {
+    .kulso tr td{
+        display: block;
+    }
+}
